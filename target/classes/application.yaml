@@ -1,5 +1,0 @@
-server:
-  port: 8710
-  servlet:
-    context-path: /api
-
