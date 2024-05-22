@@ -1,0 +1,16 @@
+name: build.yml
+on:
+  workflow_call:
+    inputs:
+      a:
+        description: 'a'
+        required: true
+        type: string
+        default: 'a'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
