@@ -12,4 +12,9 @@ spring:
     redis:
       repositories:
         enabled: true
+app:
+  wsPort: 5051
+  projectFolder: C:/Users/easychat/
+  adminEmails: 2664481691@qq.com
+
 
